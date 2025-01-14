@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+@font-face{
+    font-family: Vazir;
+    src: url("../Header/fonts/Vazir.ttf");
+}
+
+.card{
+    height: auto;
+    width: 200px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 5px;
+    color: #fff;
+    font-family: Vazir;
+    padding: 30px 20px;
+}
+
+.card h2{
+    margin-top: 20px;
+}
+
+.card a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.card a:hover{
+    color: #ffc451;
+    transition: 0.3s;
+}
+
+.card:hover{
+    border: 1px solid #ffc451;
+    transition: ease-in-out 0.3s;
+}
+
+.card img{
+    width: 50px;
+    height: 50px;
+}

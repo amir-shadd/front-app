@@ -1,0 +1,50 @@
+@font-face{
+    font-family: Vazir;
+    src: url("../Header/fonts/Vazir.ttf");
+}
+
+
+.rtl{
+    direction: rtl;
+    font-family: Vazir;
+}
+
+.mid-container-t{
+    height: 65vh;
+    width: 100%;
+    background-image:linear-gradient(rgba(0,0,0,0.65),rgba(0,0,0,0.65)), url('https://theme-script.ir/templates/kasuka/assets/img/testimonials-bg.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    margin: 70px 0;
+}
+
+.mid-content-t{
+    width: 80%;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-around;
+    align-items: center;
+}
+
+.circular--square { 
+    border-radius: 50%; 
+    width: 100px;
+    height: auto;
+}
+
+.cta-text-t h1{
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.cta-text-t p{
+    margin-top: 30px;
+}

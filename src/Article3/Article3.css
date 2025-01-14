@@ -1,0 +1,68 @@
+@font-face{
+    font-family: Vazir;
+    src: url("../Header/fonts/Vazir.ttf");
+}
+
+
+
+.rtl{
+    direction: rtl;
+}
+
+.article-container3{
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    width: 100%;
+}
+
+.article3{
+    flex: 1;
+    display: flex;
+    justify-content: space-between;
+    margin: 75px 100px;
+    gap: 30px;
+}
+
+.article3 .art-img3{
+    /* border: 2px solid yellow; */
+    flex: 0.7 ;
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.article3 .art-img3 img{
+    width: 100%;
+    height: auto;
+}
+
+.contents3{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.boxes3{
+    /* border: 3px solid blue; */
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center
+}
+
+.box{
+    display: flex;
+    flex-direction: column;
+}
+
+.box-title{
+    display: flex;
+    gap: 10px;
+}
+
+.box-title img{
+    width: 50px;
+    height: 50px;
+}

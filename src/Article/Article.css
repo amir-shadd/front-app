@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+@font-face{
+    font-family: Vazir;
+    src: url("../Header/fonts/Vazir.ttf");
+}
+
+.article-container{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.article{
+    margin: 50px 100px;
+    display: flex;
+    justify-content: center;
+    /* align-items: stretch; */
+    gap: 30px;
+}
+
+.art-img{
+    flex: 1;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+}
+
+.art-img img{
+    flex-basis: 100%;
+    max-height: fit-content;
+    overflow: hidden;
+}
+
+.art-info{
+    flex: 1;
+    font-family: Vazir;
+    text-align: justify;
+    text-justify: inter-word;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    height: 100%;
+}
+
+.art-info >* {
+    margin-bottom: 20px;
+}
+
+.t-header{
+    font-weight: 700;
+    font-size: 28px;
+}
+
+span{
+    width: 20px;
+    height: 20px;
+    margin-top: 8px;
+}
+
+span img{
+    width: 20px;
+    height: 20px;
+}
+
+.rtl{
+    direction: rtl;
+}
+
+.art-info ul{
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    gap: 10px;
+}

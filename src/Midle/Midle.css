@@ -1,0 +1,55 @@
+@font-face{
+    font-family: Vazir;
+    src: url("../Header/fonts/Vazir.ttf");
+}
+
+
+.rtl{
+    direction: rtl;
+    font-family: Vazir;
+}
+
+.mid-container{
+    height: 42vh;
+    width: 100%;
+    background-image:linear-gradient(rgba(0,0,0,0.65),rgba(0,0,0,0.65)), url('https://theme-script.ir/templates/kasuka/assets/img/cta-bg.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    margin: 70px 0;
+}
+
+.mid-content{
+    width: 80%;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-around;
+    align-items: center;
+}
+
+.mid-content a{
+    color: #fff;
+    padding: 10px 20px;
+    border: 2px solid #fff;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+.mid-content a:hover{
+    color: black;
+    background-color: #ffc451;
+    border-color: #ffc451;
+    transition: 0.5s;
+}
+
+.cta-text h1{
+    margin-bottom: 10px;
+}

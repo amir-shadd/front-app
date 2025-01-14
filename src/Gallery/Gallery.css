@@ -1,0 +1,45 @@
+@font-face{
+    font-family: Vazir;
+    src: url("../Header/fonts/Vazir.ttf");
+}
+
+
+.rtl{
+    direction: rtl;
+}
+
+
+.Gallery{
+    width: 100%;
+}
+
+.Gallery h1{
+    font-family: Vazir;
+    font-weight: 700;
+}
+
+.Gallery hr{
+    margin: 40px 0;
+}
+
+.G-container{
+    margin: 75px 100px;
+}
+
+.album{
+    display: flex;
+    width: 100%;
+}
+
+
+.pics{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.pics img{
+    max-width: 100%;
+    height: auto;
+}
